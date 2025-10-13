@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+# kök / adresini TR sayfasına yönlendir
+[[redirects]]
+  from = "/"
+  to = "/tr/privacy-policy/"
+  status = 301
